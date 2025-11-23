@@ -61,7 +61,7 @@ where $\mathbf{X}$ is the $n \times 2$ matrix with a column of ones and a column
 The calibration parameters $a$ and $b$ were found and used to fit the linear line, as shown in Figure 3.
 
 
-|                                                            ![](force_calibration.png)                                                             |
+|                                                   ![ForceCalib](Figures/force_calibration.png)                                                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
 | **Figure 3:** Linear regression results for loadcell calibration, relating applied force (N) with the raw HX711 sensor output values (unit-less). |
 
@@ -111,7 +111,7 @@ $$
 The calibration parameters were found as $\mathbf{\delta} = [c, d]^T = [-0.0907, 0.01532]$, which achieved a good approximation of the linear mapping, as shown in Figure 4. A small sinusoidal error is observed, likely caused by the large teeth of the 3D-printed spur-to-linear gear. Using machined gears with finer teeth may improve the fit.
 
 
-|                                                                ![](displacement_calibration.png)                                                                 |
+|                                                        ![DispCalib](Figures/displacement_calibration.png)                                                        |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | **Figure 4:** Linear regression results for loadcell calibration, relating the servo motor pulse width commands (us) with the measured linear displacement (mm). |
 
