@@ -81,8 +81,8 @@ $$
 where \( L \) is the linear displacement in millimeters, \( w \) is the servo pulse-width command, and \( c \), \( d \) are the regression coefficients.
 
 Given the calibration data vectors  
-\(\mathbf{L} = [L_1, L_2, \ldots, L_n]\) and  
-\(\mathbf{w} = [w_1, w_2, \ldots, w_n]\),  
+$\(\mathbf{L} = [L_1, L_2, \ldots, L_n]\)$ and  
+$\(\mathbf{w} = [w_1, w_2, \ldots, w_n]\)$,  
 the coefficients \( c \) and \( d \) can be found using the least squares method:
 
 $$
